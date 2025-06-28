@@ -13,4 +13,12 @@ You can run this app locally using the instructions below.
 ---
 
 ## 📂 Project Structure
+sms-spam-detector/
+│
+├── app.py                  # Streamlit app (UI)
+├── spam.csv                # SMS dataset (ham/spam)
+├── spam_classifier.pkl     # Trained ML model (Logistic Regression)
+├── tfidf_vectorizer.pkl    # TF-IDF transformer
+└── README.md               # Project documentation
+
 
